@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container mt-4">
+        <form id="formulario">
+            <div class="mb-3">
+                <label for="num1" class="form-label">Numero 1</label>
+                <input type="number" class="form-control" id="num1">
+            </div>
+            <div class="mb-3">
+                <label for="num2" class="form-label">Numero 2</label>
+                <input type="number" class="form-control" id="num2">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sumar</button>
+        </form>
+        <hr>
+        <div class="alert alert-primary" role="alert">
+            El resultado de la suma es: <span id="resultado"></span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
